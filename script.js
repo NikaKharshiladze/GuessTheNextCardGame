@@ -90,3 +90,5 @@ btnNewGame.addEventListener("click", function () {
   document.querySelector(".msg-2").textContent = "Next Card - Higher or Lower?";
   playing = true;
 });
+
+console.log("sas");
