@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/65645c1202.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the Next Card | "Game for Fun"</title>
+  </head>
+  <body>
+    <section class="section-top">
+      <div class="logo">
+        <h1>Guess the Next Card</h1>
+      </div>
+    </section>
+    <section class="section-middle">
+      <div class="player player-1 player-active">
+        <h2>Player 1</h2>
+        <div class="pnt">
+          <p class="points-label">Points:</p>
+          <span><p class="points points-1">0</p></span>
+          <h3 class="msg msg-1">Next Card - Higher or Lower?</h3>
+        </div>
+      </div>
+      <div class="random">
+        <img src="./card-6.png" alt="Playing-cards" class="random-card" />
+        <div class="button">
+        <button class="btn btn-plus">
+          <i class="fas fa-plus-circle fa-3x"></i>
+        </button>
+        <button class="btn btn-minus">
+          <i class="fas fa-minus-circle fa-3x"></i>
+        </button>
+        </div>  
+      </div>
+      <div class="player player-2">
+        <h2>Player 2</h2>
+        <div class="pnt">
+          <p class="points-label">Points:</p>
+          <span></span><p class="points points-2">0</p></span>
+          <h3 class="msg msg-2">Next Card - Higher or Lower?</h3>
+        </div>
+      </div>
+    </section>
+    <section class="section-bottom">
+      <p class="owner-info">Game was made by L3b0wsk1</p>
+      <p class="contact-us">Contact : @L3b0wsk1</p>
+    </section>
+    <div class="winner-box hidden">
+      <h3>Congratulations champ! You have won the game!</h3>
+      <button class="btn btn-new-game">Play Again?</button>
+      <button class="close-winner">&times;</button>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+  <script src="/script.js"></script>
+</html>
